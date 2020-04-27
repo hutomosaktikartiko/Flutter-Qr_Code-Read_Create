@@ -36,10 +36,10 @@ class _MyAppState extends State<MyApp> with SingleTickerProviderStateMixin {
             controller: controller,
             tabs: <Widget>[
               Tab(
-                icon: Icon(Icons.add, size: 40,),
+                icon: Icon(Icons.add),
               ),
               Tab(
-                  icon: Icon(Icons.center_focus_strong, size: 40,)
+                  icon: Icon(Icons.center_focus_strong)
               )
             ]),
         body: TabBarView(
